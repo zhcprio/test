@@ -1,0 +1,38 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+../include/gun.h
+string
+-
+
+../include/solider.h
+gun.h
+../include/gun.h
+memory
+-
+
+/home/han/Solider/main.cpp
+gun.h
+/home/han/Solider/gun.h
+solider.h
+/home/han/Solider/solider.h
+unistd.h
+-
+
+/home/han/Solider/src/gun.cpp
+gun.h
+/home/han/Solider/src/gun.h
+iostream
+-
+
+/home/han/Solider/src/solider.cpp
+solider.h
+/home/han/Solider/src/solider.h
+iostream
+-
+

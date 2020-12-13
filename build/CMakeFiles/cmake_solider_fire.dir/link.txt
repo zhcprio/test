@@ -1,0 +1,1 @@
+/usr/bin/c++    -rdynamic CMakeFiles/cmake_solider_fire.dir/main.cpp.o CMakeFiles/cmake_solider_fire.dir/src/gun.cpp.o CMakeFiles/cmake_solider_fire.dir/src/solider.cpp.o  -o cmake_solider_fire 

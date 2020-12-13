@@ -1,0 +1,5 @@
+cmake_minimum_required(VERSION 3.0)
+project(SOLIDERFIRE)
+add_compile_options(--std=c++11 -Wall -g)
+include_directories(include)
+add_executable(cmake_solider_fire main.cpp src/gun.cpp src/solider.cpp)
